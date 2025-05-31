@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Binggrae';
+    src: url('Binggrae.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Binggrae';
+    src: url('Binggrae-Bold.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BinggraeMelona';
+    src: url('BinggraeMelona.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BinggraeMelona';
+    src: url('BinggraeMelona-Bold.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BinggraeSamanco';
+    src: url('BinggraeSamanco.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BinggraeSamanco';
+    src: url('BinggraeSamanco-Bold.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}

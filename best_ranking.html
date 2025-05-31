@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PESCAPE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="common/font/font.css">
+    <link rel="stylesheet" href="common/css/style.css">
+
+    <style>
+        .review_con .review_list { gap: 20px; }
+        .review_con .review_item { width: calc((100% - 80px) / 5); }
+        .review_con .review_item .item_thumb img { height: 252px; }
+
+        @media all and (max-width: 1000px) {
+            .review_con .review_item { width: calc((100% - 40px) / 3); }
+            .review_con .review_item .item_thumb { height: auto; }
+            .review_con .review_item .item_thumb img { height: 420px; object-fit: cover; }
+        }
+
+        @media all and (max-width: 900px) {
+            .review_con .review_item { width: calc((100% - 20px) / 2); }
+            .review_con .review_item .item_thumb img { height: 540px; }
+        }
+
+        @media all and (max-width: 740px) {
+            .review_con .review_item .item_thumb img { height: 440px; }
+        }
+        
+        @media all and (max-width: 640px) {
+            .ranking { font-size: 20px; }
+            
+            .review_con .review_item { width: 100%; }
+            .review_con .review_item .item_thumb img { height: auto; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head_inner">
+            <div class="head_logo">
+                <a href="index.html"><img src="common/img/logo.png" alt=""></a>
+            </div>
+            <div class="side_menu">
+                <div class="search_wrap">
+                    <div class="search_item">
+                        <input type="text">
+                        <button type="button"><i class="fa-solid fa-magnifying-glass" style="color: #2b364a;"></i></button>
+                    </div>
+                </div>
+                <div class="head_link_wrap">
+                    <div class="link_item"><a href="store_list.html">지역</a></div>
+                    <div class="link_item"><a href="theme_list.html">장르</a></div>
+                    <div class="link_item"><a href="review_list.html">후기</a></div>
+                    <div class="link_item"><a href="ranking.html">랭킹</a></div>
+                </div>
+                <button type="button" class="close_btn">
+                    <img src="common/img/close.png" alt="">
+                </button>
+            </div>
+            <button type="button" class="side_btn">
+                <img src="common/img/hamburger.png" alt="">
+            </button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="wrapper"> 
+            <div class="review_con">
+                <div class="cc_title">가장 인기 있는 방탈출</div>
+                <div class="review_list">
+                    <div class="review_item">
+                        <div class="ranking first">1</div>
+                        <div class="item_thumb"><img src="common/img/theme/theme29.jpg" alt=""></div>
+                        <div class="item_data">
+                            <div class="name">꼬레아 우라</div>
+                            <div class="store">코드케이 홍대점</div>
+                            <div class="review">
+                                <span class="count">2797</span>
+                                <div class="score">4.63</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review_item">
+                        <div class="ranking second">2</div>
+                        <div class="item_thumb"><img src="common/img/theme/theme30.jpg" alt=""></div>
+                        <div class="item_data">
+                            <div class="name">퀘스천마크</div>
+                            <div class="store">퀘스천마크 홍대점</div>
+                            <div class="review">
+                                <span class="count">2782</span>
+                                <div class="score">4.65</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review_item">
+                        <div class="ranking third">3</div>
+                        <div class="item_thumb"><img src="common/img/theme/theme15.jpeg" alt=""></div>
+                        <div class="item_data">
+                            <div class="name">그림자 없는 상자</div>
+                            <div class="store">단편선 강남점</div>
+                            <div class="review">
+                                <span class="count">2679</span>
+                                <div class="score">4.74</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review_item">
+                        <div class="ranking">4</div>
+                        <div class="item_thumb"><img src="common/img/theme/theme31.png" alt=""></div>
+                        <div class="item_data">
+                            <div class="name">FILM BY STEVE</div>
+                            <div class="store">키이스케이프 메모리컴퍼니</div>
+                            <div class="review">
+                                <span class="count">2583</span>
+                                <div class="score">4.83</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review_item">
+                        <div class="ranking">5</div>
+                        <div class="item_thumb"><img src="common/img/theme/theme32.png" alt=""></div>
+                        <div class="item_data">
+                            <div class="name">FILM BY EDDY</div>
+                            <div class="store">키이스케이프 메모리컴퍼니</div>
+                            <div class="review">
+                                <span class="count">2487</span>
+                                <div class="score">4.84</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review_item">
+                        <div class="ranking">6</div>
+                        <div class="item_thumb"><img src="common/img/theme/theme8.jpg" alt=""></div>
+                        <div class="item_data">
+                            <div class="name">사람들은 그것을 행복이라 부르기로 했다</div>
+                            <div class="store">단편선 강남점</div>
+                            <div class="review">
+                                <span class="count">2479</span>
+                                <div class="score">4.68</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review_item">
+                        <div class="ranking">7</div>
+                        <div class="item_thumb"><img src="common/img/theme/theme33.png" alt=""></div>
+                        <div class="item_data">
+                            <div class="name">NERD</div>
+                            <div class="store">키이스케이프 강남 더오름점</div>
+                            <div class="review">
+                                <span class="count">2401</span>
+                                <div class="score">4.65</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review_item">
+                        <div class="ranking">8</div>
+                        <div class="item_thumb"><img src="common/img/theme/theme34.png" alt=""></div>
+                        <div class="item_data">
+                            <div class="name">화생설화:Blooming</div>
+                            <div class="store">비트포비아 던전 101</div>
+                            <div class="review">
+                                <span class="count">2398</span>
+                                <div class="score">4.57</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review_item">
+                        <div class="ranking">9</div>
+                        <div class="item_thumb"><img src="common/img/theme/theme35.png" alt=""></div>
+                        <div class="item_data">
+                            <div class="name">And I met E</div>
+                            <div class="store">비트포비아 홍대 던전3</div>
+                            <div class="review">
+                                <span class="count">2380</span>
+                                <div class="score">4.66</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review_item">
+                        <div class="ranking">10</div>
+                        <div class="item_thumb"><img src="common/img/theme/theme36.png" alt=""></div>
+                        <div class="item_data">
+                            <div class="name">US</div>
+                            <div class="store">키이스케이프 강남 우주라이크점</div>
+                            <div class="review">
+                                <span class="count">2331</span>
+                                <div class="score">4.64</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot_inner">
+            <div class="foot_logo">
+                <img src="common/img/logo.png" alt="">
+            </div>
+            <div class="foot_info">
+                <p><a href="personal.html">개인정보처리방침</a> | <a href="terms.html">이용약관</a> | <a href="faq.html">FAQ</a></p>
+                <p>(주)PESCAPE | 서울특별시 강남구 OO빌딩</p>
+                <p>TEL: 02-1234-6485</p>
+                <p>ⓒCOPYRIGHT All rights reserved</p>
+            </div>
+            <div class="foot_link">
+                <a href="http://facebook.com/choejaeseung.321315/" class="link_item">
+                    <img src="common/img/fb.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/sksmswotmd/" class="link_item">
+                    <img src="common/img/is.png" alt="">
+                </a>
+                <a href="https://blog.naver.com/onlycjs" class="link_item">
+                    <img src="common/img/nb.png" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="common/js/common.js"></script>
+
+    <script src="common/js/common.js"></script>
+</body>
+</html>
